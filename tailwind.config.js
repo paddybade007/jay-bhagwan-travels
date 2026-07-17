@@ -1,11 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}", // Check karo ki ye line sahi hai
+  ],
   theme: {
     extend: {
       colors: {
-        primary: '#003580', // Professional Blue
-        secondary: '#febb02' // Taxi/Gold yellow
+        primary: '#003580',
+        secondary: '#febb02'
       }
     },
   },
